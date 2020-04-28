@@ -440,7 +440,7 @@ void cuentapixeles(){
 }
 
 boolean win(float contador){
-  if(contador<80000) return false;
+  if(contador<10) return false;
   else return true;
 }
 
